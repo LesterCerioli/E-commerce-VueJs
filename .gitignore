@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+.pnpm/
+.yarn/
+
+# Build output
+dist/
+.out/
+.vercel/
+
+# Cache folders
+.temp/
+.cache/
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local development files
+.DS_Store
+*.local
+
+# Editor/IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Debugger
+.vscode-launch.json
+
+# Optional (uncomment if needed)
+# # TypeScript cache
+# tsconfig.tsbuildinfo
+
+# # ESLint/Biome cache
+# .eslintcache
+# .biome/
+
+# # Storybook
+# storybook-static/
